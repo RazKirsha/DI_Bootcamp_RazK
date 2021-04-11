@@ -1,0 +1,24 @@
+body {
+    background-image: url("https://bit.ly/3rIB2WQ");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* FOR ID */
+#blue {
+    color: rgb(43, 46, 226);
+}
+
+h1 {
+    font-size: 40px;
+    border-bottom: 10px solid pink;
+    padding: 10px;
+    margin: 100px;
+}
+
+/* FOR CLASS */
+.red {
+    color: red;
+}
+
+/* Class will be used on multiple items while ID will only be used on one item */

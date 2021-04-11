@@ -1,0 +1,14 @@
+#navbars1{
+    display: flex;
+}
+
+.carousel-caption {
+    position: absolute;
+}
+
+#secondbutton {
+    background-color: rgb(20, 20, 29);
+}
+.row {
+    background-color: rgb(191, 204, 245);
+}

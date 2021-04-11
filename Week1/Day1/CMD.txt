@@ -1,0 +1,44 @@
+dir -
+Lists all files in a directory
+
+cd - 
+Returns the current directory
+
+cd Desktop - 
+Sends you to a directory, For example Desktop
+
+cd .. - 
+Returns one file back
+
+cls - 
+Clears all cmd window
+
+cd / - 
+Takes me to the root directory
+
+start . - 
+Opens the file that is in the current directory
+
+mkdir name - 
+Opens a new folder in the current directory
+
+echo>filename.txt - 
+Opens a new file in the current directory, in this case this is a notepad file named "file name" for example
+
+start filename.txt - 
+Opens the file.
+
+rename filename.txt namefile.txt - 
+Changes file name
+
+del namefile.txt - 
+Deletes the file
+
+Rmdir "foldername - "
+Deletes folders
+
+code . -
+Opens A Visual studio with a new file.
+
+code file.txt - 
+Open A Visual Studio of file.txt

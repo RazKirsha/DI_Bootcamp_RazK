@@ -1,0 +1,37 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.white{
+    background-color: rgb(226, 226, 238);
+}
+
+.lightgrey {
+    background-color: rgb(187, 187, 197);
+}
+
+.deepgrey {
+    background-color: rgb(125, 125, 126);
+}
+
+.black {
+    background-color: rgb(44, 44, 44);
+}
+
+.white , .lightgrey , .deepgrey, .black {
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    transition: all 0.5s;
+}
+
+.white:hover , .lightgrey:hover , .deepgrey:hover, .black:hover {
+    transform: scale(1.5);
+}
+
+.fourofsome, .row {
+    display: flex;
+}

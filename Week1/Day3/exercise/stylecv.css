@@ -1,0 +1,98 @@
+body {
+    background-image: url("https://bit.ly/3wyY6uy");
+}
+
+.all {
+    background-color: rgba(233, 233, 233, 0.74);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+ 
+/* intro part */
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+    padding-top: 5px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 50px;
+}
+
+h1:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 10%;
+    border-bottom: 1px solid orange;
+}
+
+#text>p {
+    color:rgb(112, 114, 113);
+}
+
+.intro img{
+    border-bottom: 8px solid orange ;
+    display: block;
+    margin-right: 100px;
+    border-radius: 10%;
+}
+
+/* bottom*/
+h3 {
+    display: inline-block;
+    margin-bottom: 4px;
+    position: relative;
+}
+
+h3:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 10%;
+    border-bottom: 1px solid orange;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    margin-left: 10px;
+}
+
+/* bottom left */
+
+.con_edu {
+    width: 600px;
+    border-right: 10px rgba(128, 128, 128, 0.356) solid;
+}
+
+li {
+    list-style-type: none;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.con {
+    padding-bottom: 30px;
+}
+
+/* bottom right */
+.pro_we {
+    margin-left: 10px;
+}
+
+li {
+    list-style-type: circle;
+}

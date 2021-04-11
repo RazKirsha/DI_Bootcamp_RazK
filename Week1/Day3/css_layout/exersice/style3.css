@@ -1,0 +1,25 @@
+.all{
+    color: chocolate;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all>div {
+    border: 2px blue solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.one {
+    font-size: 100px;
+}
+
+.two {
+    width: 100%;
+}
+
+.three {
+    width: 100%;
+}

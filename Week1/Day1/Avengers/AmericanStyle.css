@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://bit.ly/39JsdG9);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#info {
+    font-size: large;
+    color: crimson;
+    font-family: 'New Tegomin', serif;
+}

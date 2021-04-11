@@ -1,0 +1,37 @@
+Upload To Github:
+
+git init -
+Sets an .init file in the  current folder
+
+git status - 
+Reviews the status of the files in the directory. Red means that they have not been committed yet, Green means that they got commited.
+
+git remote add origin https://github.com/RazKirsha/git_tutorial_RazK.git - 
+Takes the url of the repository that you were given in Github and gives it the name origin
+
+git add . -
+Adds all the files to be committed
+
+git commit -m "This is a messege" - 
+Commits the files that were added before and sends a messege after the -m
+
+git push origin master - 
+Pushes the committed files to the origin url at branch named master
+
+git branch -
+Shows you the currnet branch
+
+git branch Raz_branch - 
+Creates the branch Raz_branch
+
+git checkout Raz_branch - 
+Takes you to Raz_branch.
+
+Downloading from Github:
+
+git clone https://github.com/RazKirsha/git_tutorial_RazK.git - 
+Clones the files from this url
+
+git pull https://github.com/RazKirsha/git_tutorial_RazK.git Raz_branch - 
+Takes or updates all the files from Raz_branch in the https://github.com/RazKirsha/git_tutorial_RazK.git depository
+

@@ -1,0 +1,35 @@
+﻿body {
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h2 {
+	font-family: 'Yatra One', cursive;
+	font-size: 3em;
+	border-bottom: 2px solid #A9C4EE;
+	border-right: 2px solid #A9C4EE;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow: 4px 4px 5px #888888; /*for Mozilla*/
+	-ms-box-shadow: 4px 4px 5px #888888; /*for Explorer*/
+	-webkit-box-shadow: 4px 4px 5px #888888; /*for Chrome and Safari*/
+	-o-box-shadow: 4px 4px 5px #888888; /*for Opera*/
+	box-shadow: 4px 4px 5px #888888; /*still needs to be written*/
+	margin-top:10px;
+}
+
+img {
+	width:450px;
+	height:300px;
+	margin: 5px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}

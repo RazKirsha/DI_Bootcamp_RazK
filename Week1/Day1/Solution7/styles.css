@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+#header {
+    color: rgb(84, 88, 92);
+    background-color: rgb(203, 209, 219);
+    margin: 2px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+button {
+  color: rgb(97, 98, 107);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#signup {
+    padding: 300px;
+    background-image: url("https://bit.ly/3dDUAXw");  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(241, 231, 211);
+    font-size: 20px;
+}
+
+input[type=email] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px; 
+    background-color: rgb(194, 247, 241);
+    border: thin;
+    color: rgb(12, 66, 110);
+}
+
+#ut {
+    background-color: rgb(194, 233, 233);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    color:rgb(98, 99, 100);
+}

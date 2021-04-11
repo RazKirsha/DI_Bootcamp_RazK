@@ -1,0 +1,33 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.light {
+    background-color: rgb(174, 174, 255);
+}
+
+.deep {
+    background-color: rgb(2, 2, 138);
+}
+
+.blue , .light , .deep {
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    transition: all 0.5s;
+}
+
+.blue:hover , .light:hover , .deep:hover {
+    transform: scale(1.5);
+}
+
+.first_three, .first_row , .second_three, .second_row, .third_three, .third_row{
+    display: flex;
+}

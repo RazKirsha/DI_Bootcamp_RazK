@@ -1,0 +1,105 @@
+/*
+.nav_con {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul {
+    position: fixed;
+    right: 10px;
+}
+*/
+
+body {
+    background-color: rgb(250, 247, 224);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(168, 226, 168);
+    color: rgb(37, 37, 36);
+    margin-bottom: 5px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+#icon{
+    font-size:50px; 
+    position: relative;
+}
+
+.fourofsome {
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: rgb(100, 100, 69);
+    transition: all 1s;
+}
+
+.products:hover {
+    transform: scale(1.1);
+}
+
+.des {
+    display: block;
+}
+
+h5 {
+    color: grey;
+    text-decoration:line-through;
+}
+
+h3,h4,h5 {
+    margin-top:-10px;
+}
+
+.button {
+    outline: none;
+    border: none;
+    width:90px;
+    height: 50px;
+    color:white;
+    background-color: rgb(40, 94, 49);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(150, 181, 248);
+    color:black;
+}
+
+@media screen and (min-width:600px) {
+    .products{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .fourofsome {
+        display: flex;
+        justify-content: center;
+    }
+}

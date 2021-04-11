@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <div>
+            <form method="GET">
+            <!-- Use "GET" not "POST" -->
+                <span>Password: <input type="password" name="password" minlength="5"></span>
+                <br>
+                First name: <input type="text" name="firstname">
+                <br>
+                Last name: <input type="text" name="lastname">
+                <br>
+                Email: <input type="email" name="email" required>
+                <br>
+                Birthday: <input type="date" name="birthday">
+                <br>
+                Gender: <br>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+                <br>
+                Pets: <br>
+                <input type="checkbox" name="cat"> Cat
+                <input type="checkbox" name="dog"> Dog
+                <input type="checkbox" name="other"> Other
+                <br>
+                Cars: <br>
+                <select name="cars">
+                    <option value="Mazda" name="mazda">Mazda</option>
+                    <option value="BMW" name="bmw">BMW</option>
+                    <option value="Ford" name="ford">Ford</option>
+                </select>
+                <br>
+                <input type="submit" value="Register">
+                <br>
+                <input type="reset" value="RESET IT">
+            </form>
+            <i class="fas fa-clone"></i>
+        </div>
+    </body>
+</html>
+
+
+<!--THIS IS A COMMENT!
+?
+password=12345
+&firstname=Fake
+&lastname=Man
+&email=Fake%40gmail.com
+&birthday=2021-03-08
+&gender=Male
+&other=on
+&cars=Ford
+-->

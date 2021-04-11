@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftside {
+    margin-right: 7%;
+    width: 10em;
+ }
+
+.righside {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.quete {
+    font-size: small;
+    color: grey;
+}
+
+/* .pics {
+    display: flex;
+    margin-left: 10%;
+    height: 10%;
+} */

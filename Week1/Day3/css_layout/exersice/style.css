@@ -1,0 +1,28 @@
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.all>div {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items:center;
+    border: 2px blue solid;
+}
+
+.one {
+    width: 100%;
+    
+}
+
+.two {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 50%;
+}
+
+.three {
+    width: 100%;
+}

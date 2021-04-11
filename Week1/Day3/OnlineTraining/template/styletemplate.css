@@ -1,0 +1,81 @@
+body {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* NAV */
+.sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main_nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    background-color: royalblue;
+}
+
+.main_nav:hover{
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+/* COVER */
+.container {
+    /* background-color: salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.cover {
+    width: 30em;
+}
+
+/* GRID */
+.grid-wrapper {
+    background-color: violet;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box {
+    width: 20%;
+    height: 20%;
+    background-color: slateblue;
+    padding: 130px;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+.box:hover {
+    transform: rotate(-2deg) ;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: teal;
+}

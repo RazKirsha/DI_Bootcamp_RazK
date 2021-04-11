@@ -1,0 +1,48 @@
+body {
+    font-size: xx-large;
+    color: ivory;
+}
+
+.box2 {
+    order: 0;
+}
+
+.box3 {
+    order: 1;
+}
+
+.flex-container {
+    background-color: aquamarine;
+    display: flex;
+    padding: 10px;
+    height: 600px;
+    /* flex-direction: Is setting what inside in a row, column or reverse them both; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: Where do you want to place the contant on the x-axis; */
+    /* justify-content: center; */
+    /* align-items: Where do you want to place the content on the y-axis; */
+    /* align-items: flex-end ; */
+    /* flex-wrap: Wraps the content according to the screen fitting; */
+    /* flex-wrap: wrap; */
+    /* align-content: Aligns applies with more than one rows of content, Aligns the content in the flexbox; */
+    /* align-content: space-around; */
+
+}
+
+.flex-container > div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.blue {
+    background-color: rgb(0, 0, 255);
+}
+
+.green {
+    background-color: rgb(0, 255, 0);
+}

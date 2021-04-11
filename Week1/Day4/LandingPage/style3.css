@@ -1,0 +1,51 @@
+.raz {
+    background-image:url("https://bit.ly/3dKV2D0");
+}
+
+.bbb {
+    margin-left: 40%;
+    background-color: transparent;
+}
+.d-flex{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.mom {
+    color:white;
+} 
+
+.sis {
+    color:white;
+    border: 2px white solid;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-right: rgba(168, 167, 167, 0.541) 2px solid;
+    border-left: rgba(168, 167, 167, 0.541) 2px solid ;
+    background-color: rgba(213, 243, 152, 0.829);
+}
+
+.pap {
+    font-size: 400%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+.mam {
+    border: none;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.table {
+    margin-left: 10%;
+    margin-right: 10%;
+}

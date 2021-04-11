@@ -1,0 +1,20 @@
+#navbars{
+    display: flex;
+}
+
+.carousel-caption {
+    position: absolute;
+}
+
+#secondbutton {
+    background-color: rgb(20, 20, 29);
+}
+
+.card {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.in-card{
+    padding-right: 100px;
+}

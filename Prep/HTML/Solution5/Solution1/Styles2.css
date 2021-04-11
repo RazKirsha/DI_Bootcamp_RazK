@@ -1,0 +1,35 @@
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#green:hover {
+    background-color: darkolivegreen;
+    width: 610px;
+}
+
+.size {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+#outer {
+    width: 200px;
+    height: 200px;
+    background-color: darkslategrey;
+    overflow: hidden;
+}
+
+#inner {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(178, 223, 106);
+}

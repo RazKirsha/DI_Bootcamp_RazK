@@ -1,0 +1,32 @@
+body {
+    border: 4px crimson solid;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.all>div {
+    margin: 5px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 2px blue solid;
+}
+
+.one {
+    width: 40%;
+    align-self: center;
+}
+
+.two {
+    width: 100%;
+    align-self: flex-end;
+}
+
+.three {
+    width: 40%;
+    align-self: center;
+}

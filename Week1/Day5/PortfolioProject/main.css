@@ -1,0 +1,98 @@
+.zzz {
+    background-color: rgba(51, 80, 23, 0.562);
+}
+
+.all {
+    background-color: #dee7ccb6;
+    color: rgb(80, 80, 80);
+    width: 100%;
+    padding: 4%;
+}
+
+.dad:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.aaa {
+    color: khaki;
+}
+
+.aaa:hover {
+    color:rgba(86, 156, 86, 0.767);
+}
+
+.dad, .mom {
+    background-image: url("https://bit.ly/3dFCrsa");
+    transition: all 0.3s linear;
+}
+
+.mom {
+    min-height: 500px;
+}
+.about {
+    display: flex;
+}
+
+img {
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.vl {
+    border-left: 6px solid rgba(196, 196, 196, 0.788);
+    height: 200px;
+    margin-right: 10px;
+  }
+
+.text, .portf, .blog {
+   margin-top: 50px;
+}
+.blog{
+    margin-bottom: 40px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: rgba(185, 183, 183, 0.397);
+    transition: all 0.3s linear;
+}
+
+.card:hover {
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.btn {
+    background-color: rgba(102, 99, 99, 0.781);
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(211, 211, 211);
+    color: rgb(99, 95, 95);
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texty {
+    width: 40vw;
+}

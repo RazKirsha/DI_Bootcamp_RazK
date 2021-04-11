@@ -1,0 +1,60 @@
+﻿/* Selector {
+	Propetry: value;
+} */ 
+*{
+	text-align: right;
+}
+
+body {
+background-image: url(https://www.coreldraw.com/static/cdgs/images/pages/seo/tips/photo/basics/blur-background/blur-background-og.jpg);
+background-size: cover;
+}
+
+h1 , p {
+	color: #147529;
+	text-align: center;
+	border: 2px solid rgba(70, 166, 91, 0.5);
+	cursor: pointer;
+}
+
+p {
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 3px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 110%;
+	font-family: 'Train One', cursive;
+}
+
+img {
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:last-child {
+	border: 3px dashed pink;
+}
+
+.active {
+	color: purple;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+	/*background-color: transparent;*/
+}
+
+#div2 {
+	background: rgba(0, 255, 0, 0.2);
+	/*background-color: transparent;*/
+}
