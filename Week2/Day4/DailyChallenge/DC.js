@@ -20,7 +20,6 @@ function starIt(){
 
     stars1 = '*'.repeat(longestWord.length*1.5);
     stars2 = stars1;
-
     newsen.unshift(stars1);
     newsen.push(stars2);
 
