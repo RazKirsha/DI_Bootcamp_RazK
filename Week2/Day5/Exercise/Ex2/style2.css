@@ -1,0 +1,47 @@
+body {
+    background-color: #0679B7;
+}
+
+.container {
+    background-color: #035f8d65;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+button {
+    width:10%;
+    height:70px;
+    margin: 1px;
+    font-size: x-large;
+    border: rgba(4, 10, 92, 0.705) 2px solid;
+    background-color: rgba(255, 255, 255, 0.281);
+    color: white;
+    transition: 0.1s;
+}
+
+button:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(255,255,255,0.8) 0px 5px 15px, inset rgba(255,255,255,0.15) 0px -10px 20px;
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+#calc {
+    padding: 10px;
+    background-color: rgb(201, 194, 194);
+    color: rgb(0, 0, 75);
+}
+
+.b {
+    background-color: rgb(22, 83, 139);
+}
+
+#reset {
+    background-color: lightcoral;
+}
+
+#clear {
+    background-color: lightsalmon;
+}
