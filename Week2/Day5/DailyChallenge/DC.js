@@ -14,6 +14,10 @@ while (bottles>=0){
         console.log(`Take ${les} down, pass ${verb} around`);
         bottles -= les;
         les += 1;
+        if (bottles === 1){
+            fname = "bottle";
+            verb = "it";
+        }
         console.log(`${bottles} ${fname} of beer on the wall`);
     } 
     les = bottles;

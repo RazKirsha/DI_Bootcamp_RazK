@@ -1,0 +1,28 @@
+DOM:
+
+
+document;
+dispalys the HTML of the page as a function of JS.
+
+document.getElementsByTagName("h1");
+grabs <h1> tag items.
+
+document.getElementsByClassName("AAA");
+grabs 'AAA' class items.
+
+document.getElementById("a")[1];
+grabs the second([1]) 'a' ID item.
+
+=========================
+
+document.querySelector("h1");
+grabs the first <h1> tag element.
+
+document.querySelectorAll("li");
+grabs all the <li> tag elements.
+
+=========================
+
+document.querySelector("li").getAttribute("width");
+grabs the attribute of the first <li> item. This will return what is assigned inside "width".
+
