@@ -1,0 +1,25 @@
+DOM Events:
+
+var button = document.getElementsByTagName("Button")[0];
+Grabs the first button from html.
+
+button.addEventListener("click", function () {
+	console.log('CLICK!!!');
+})
+adds event of clicking that runs the function below.
+
+button.addEventListener("mouseenter", function () {
+	console.log('CLICK!!!');
+})
+adds event by hovering mouse over button that runs the function below.
+
+button.addEventListener("mouseleave", function () {
+	console.log('CLICK!!!');
+})
+adds event by hovering mouse away from button that runs the function below.
+
+input.addEventListener("keypress", function () {
+	console.log('CLICK!!!');
+})
+adds event by pressing enter that runs the function below.
+
