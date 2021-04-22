@@ -23,3 +23,16 @@ input.addEventListener("keypress", function () {
 })
 adds event by pressing enter that runs the function below.
 
+=============================================
+
+<form>
+        <input type="button" name="test" value="Click me" onclick="inform()">
+    </form>
+
+    <script>
+        function inform(){
+            alert("You clicked me")
+        }
+    </script>
+
+runs the functions when you click on the button.
