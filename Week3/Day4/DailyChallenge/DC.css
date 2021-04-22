@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(148, 156, 156);
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part1, .part2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(240, 236, 236, 0.692);
+    border-radius: 10%;
+}
+
+#inputbar {
+    width: 20%;
+}
+
+.part2{
+    align-items: flex-start;
+    border-radius: 20%;
+}
+
+#reset{
+    width: 60px;
+}
+
+input[type=checkbox]:checked + label {
+    color:rgb(0, 0, 0);
+    text-decoration: line-through;
+}
