@@ -19,6 +19,7 @@ candles_num = age % 10
 dashes_calc = int((18-candles_num)/2)
 dashes = '_' * dashes_calc
 
+
 def cake(candles,dash):
     print('  ' + dash + 'i' * candles + dash + ' ')
     print('  |   :H:a:p:p:y:  |')
