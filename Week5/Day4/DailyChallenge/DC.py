@@ -34,9 +34,11 @@ class Text:
                 uniques.append(key)
         return uniques
 
-    def from_the_stranger(self):
+    @classmethod
+    def from_the_stranger(cls):
         with open('TheStranger.txt', 'r') as f:
-            self.text = f.read()
+            data = f.read()
+        return cls(data)
 
 
 class TextModification(Text):
@@ -48,6 +50,7 @@ class TextModification(Text):
     #     text_list = [w for w in self.text.split() if w not in (stopwords.words('english'))]
     #     return (' ').join(text_list)
 
+
 t = Text('Hey Raz my name Raz is Raz Raz')
 print(t.count_word('Raz'))
 print(t.most_frequent())
@@ -58,3 +61,9 @@ new_t = TextModification('a')
 new_t.from_the_stranger()
 # print(new_t.without_punctuation())
 # print(new_t.remove_stopwords())
+
+# def most_frequent():
+# counter = Counter(text_list)
+# Could have used this function - most_common is a method of the Counter class.
+# it returns a tuple of the 3 most common words and their count.
+# most_occur = counter.most_common()

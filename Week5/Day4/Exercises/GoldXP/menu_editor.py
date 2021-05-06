@@ -42,6 +42,7 @@ def exit_prog(manager):
     manager.save_to_file()
     print('Menu was saved successfully')
 
+
 running = True
 manager1 = load_manager()
 while running:
